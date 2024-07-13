@@ -1104,10 +1104,10 @@ switch ( $action ) {
 			exit;
 		}
 
-		if ( ! get_option( 'users_can_register' ) ) {
+		/*if ( ! get_option( 'users_can_register' ) ) {
 			wp_redirect( site_url( 'wp-login.php?registration=disabled' ) );
 			exit;
-		}
+		}*/
 
 		$user_login = '';
 		$user_email = '';
